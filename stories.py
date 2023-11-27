@@ -1,0 +1,10 @@
+stories = ("Avocados are a fruit, not a vegetable. They're technically considered a single-seeded berry, believe it or not.",
+           "The Eiffel Tower can be 15 cm taller during the summer, due to thermal expansion meaning the iron heats up, the particles gain kinetic energy and take up more space.",
+           'Trypophobia is the fear of closely-packed holes. Or more specifically, "an aversion to the sight of irregular patterns or clusters of small holes or bumps." No crumpets for them, then.',
+           "Allodoxaphobia is the fear of other people's opinions. It's a rare social phobia that's characterised by an irrational and overwhelming fear of what other people think.",
+           "Australia is wider than the moon. The moon sits at 3400km in diameter, while Australia’s diameter from east to west is almost 4000km.",
+           "'Mellifluous' is a sound that is pleasingly smooth and musical to hear.",
+           "Human teeth are the only part of the body that cannot heal themselves. Teeth are coated in enamel which is not a living tissue.",
+           "It's illegal to own just one guinea pig in Switzerland. It's considered animal abuse because they're social beings and get lonely.",
+           "The Ancient Romans used to drop a piece of toast into their wine for good health - hence why we 'raise a toast'.",
+           "Baby rabbits are called kits. Cute!")

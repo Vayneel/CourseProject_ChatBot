@@ -1,12 +1,15 @@
-'''
+"""
 Console chat_bot for entertainment
-'''
+"""
 
 import menus as menu
 
-start_cycle = menu.start_menu()
+while 1:
+    start_cycle = menu.start_menu()
+    if start_cycle or not start_cycle:
+        break
 
-while start_cycle == True:
+while start_cycle:
     match menu.main_menu():
         case '1':
             menu.recommend_menu()
@@ -17,4 +20,4 @@ while start_cycle == True:
         case '4':
             break
         case _:
-            print('Схоже, ти ввів щось не те.')
+            print('Incorrect answer. Try again!')
