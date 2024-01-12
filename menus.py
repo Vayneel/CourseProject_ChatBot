@@ -7,7 +7,7 @@ from games_and_stories import rsp, gtn, grs
 from art import tprint
 
 
-def start_menu():
+def start_menu() -> bool or None:
     """
     Start menu
     :return: true or false
@@ -27,20 +27,18 @@ def start_menu():
             print('Seems, you\'ve entered incorrect answer. Restart program.')
 
 
-def main_menu():
+def main_menu() -> str:
     """
     Main menu of chat_bot
     :return: your choose
     """
-
     main_choose = input("""What should I do?\n\t1.Recommend to me...\n\t2.Tell me...\n\t3.Let's play...
 \t4.Stop talk (exit)!\n(Enter number of answer)>>> """)
-
     print()
     return main_choose
 
 
-def recommend_film():
+def recommend_film() -> None:
     """
     Recommend film by genre
     :return: Nothing
@@ -58,7 +56,7 @@ def recommend_film():
             recommend_menu()
 
 
-def recommend_music():
+def recommend_music() -> None:
     """
     Recommend music by genre
     :return: Nothing
@@ -77,7 +75,7 @@ def recommend_music():
             recommend_menu()
 
 
-def recommend_game():
+def recommend_game() -> None:
     """
     Recommend game by genre
     :return: Nothing
@@ -95,7 +93,7 @@ def recommend_game():
             recommend_menu()
 
 
-def recommend_menu():
+def recommend_menu() -> None:
     """
     Menu of recommend menu part
     :return:
@@ -119,7 +117,7 @@ def recommend_menu():
             recommend_menu()
 
 
-def play_menu():
+def play_menu() -> None:
     """
     Play game
     :return: Nothing
@@ -140,7 +138,7 @@ def play_menu():
             play_menu()
 
 
-def tell_menu():
+def tell_menu() -> None:
     """
     Tell about story or joke
     :return: Nothing

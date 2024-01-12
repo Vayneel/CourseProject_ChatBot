@@ -7,10 +7,8 @@ guess-the-number
 import random
 from stories import stories
 
-signs = ('rock', 'scissors', 'paper')  # todo
 
-
-def rsp():
+def rsp() -> str:
     """
     Play rock-scissors-paper
     :return: amount of wins
@@ -23,6 +21,8 @@ def rsp():
         rounds = int(input('Enter amount of rounds: '))
     except ValueError:
         return 'Error. Try to enter integer next time'
+
+    signs = ('rock', 'scissors', 'paper')
 
     for _ in range(rounds):
         your_sign = input('Enter rock, scissors or paper: ').lower()
@@ -41,7 +41,7 @@ def rsp():
     return f'You won {points_rsp_start}\\{rounds} times'
 
 
-def gtn():
+def gtn() -> str:
     """
     Play guess-the-number
     :return: number of try
@@ -69,7 +69,7 @@ def gtn():
     return f'You loose, correct answer --> {number_to_guess}'
 
 
-def grs():
+def grs() -> str:
     """
     Get some story
     :return: random story
